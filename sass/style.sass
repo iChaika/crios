@@ -1,0 +1,129 @@
+$fmont: 'Montserrat', sans-serif
+$fmyr: 'MyriadPro', sans-serif
+    
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+body
+    max-width: 2000px
+    height: 10000px
+    margin: 0 auto
+    // background: #000 url('../images/crios.jpg') 50% 0 no-repeat
+    font-family: $fmont
+    font-size: 16px
+
+.container-full
+    max-width: 100%
+    margin: 0 auto
+
+.container 
+    max-width: 1500px
+    margin: 0 auto
+    padding: 0 15px
+
+.main-header 
+    width: 100%
+    min-height: 1460px
+    background: #fff url('../images/main-header-bg.jpg') 50% 402px no-repeat
+
+.header-top
+    display: flex
+    justify-content: space-between
+    margin-top: 58px
+    &__menu
+        display: flex
+        flex-direction: columns
+        justify-content: center
+        align-items: center
+        width: 60px
+        height: 60px
+        background: #fff
+        border-radius: 50%
+        box-shadow: 0 0 65px #dae5ef
+    &__menu-btn
+        display: block
+        width: 18px
+        height: 2px
+        background: #000
+        &::before, &::after
+            content: ''
+            display: block            
+            width: 18px
+            height: 2px
+            background: #000
+        &::before
+            margin-top: -5px
+        &::after
+            margin-top: 8px
+    &__logo
+        margin-top: -58px
+        width: 534px
+        height: 266px
+        background: #fff url('../images/logo.png')
+        a
+            margin: 0 auto
+            display: block
+            width: 420px;
+            height: 210px;
+            border-radius: 0 0 240px 240px
+    &__search
+        display: flex
+        flex-direction: columns
+        justify-content: center
+        align-items: center
+        width: 60px
+        height: 60px
+        background: #fff
+        border-radius: 50%
+        box-shadow: 0 0 65px #dae5ef
+        &:hover
+            background: #43a9ff
+            
+    &__search-icon
+        display: block
+        width: 21px
+        height: 21px
+        background-image: url('../images/header-top__search.svg')
+
+.header-text
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: center
+    &__h2
+        margin-top: 100px
+        color: #000000
+        font-size: 48px
+        font-weight: 400
+        letter-spacing: 0.8px
+    &__text
+        display: block
+        margin-top: 21px
+        margin-left: -11px;
+        color: #4b5863
+        opacity: 0.25;
+        font-size: 18px
+        font-weight: 400
+        letter-spacing: 0.18px
+    &__btn
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-top: 80px
+        width: 229px
+        height: 51px
+        color: #43a9ff
+        font-size: 14px
+        font-weight: 700
+        text-transform: uppercase
+        text-decoration: none
+        box-shadow: 0 0 35px rgba(218, 229, 239, 0.35)
+        border-radius: 22px
+        background-color: #ffffff
+        transition: 0.2s
+        &:hover
+            color:#fff
+            background: #43a9ff

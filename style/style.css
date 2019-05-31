@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 2000px;
+  height: 10000px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.container-full {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main-header {
+  width: 100%;
+  min-height: 1460px;
+  background: #fff url("../images/main-header-bg.jpg") 50% 402px no-repeat;
+}
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 58px;
+}
+
+.header-top__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: columns;
+          flex-direction: columns;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 65px #dae5ef;
+          box-shadow: 0 0 65px #dae5ef;
+}
+
+.header-top__menu-btn {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: #000;
+}
+
+.header-top__menu-btn::before, .header-top__menu-btn::after {
+  content: '';
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: #000;
+}
+
+.header-top__menu-btn::before {
+  margin-top: -5px;
+}
+
+.header-top__menu-btn::after {
+  margin-top: 8px;
+}
+
+.header-top__logo {
+  margin-top: -58px;
+  width: 534px;
+  height: 266px;
+  background: #fff url("../images/logo.png");
+}
+
+.header-top__logo a {
+  margin: 0 auto;
+  display: block;
+  width: 420px;
+  height: 210px;
+  border-radius: 0 0 240px 240px;
+}
+
+.header-top__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: columns;
+          flex-direction: columns;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 65px #dae5ef;
+          box-shadow: 0 0 65px #dae5ef;
+}
+
+.header-top__search:hover {
+  background: #43a9ff;
+}
+
+.header-top__search-icon {
+  display: block;
+  width: 21px;
+  height: 21px;
+  background-image: url("../images/header-top__search.svg");
+}
+
+.header-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.header-text__h2 {
+  margin-top: 100px;
+  color: #000000;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+}
+
+.header-text__text {
+  display: block;
+  margin-top: 21px;
+  margin-left: -11px;
+  color: #4b5863;
+  opacity: 0.25;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.18px;
+}
+
+.header-text__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 80px;
+  width: 229px;
+  height: 51px;
+  color: #43a9ff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 35px rgba(218, 229, 239, 0.35);
+          box-shadow: 0 0 35px rgba(218, 229, 239, 0.35);
+  border-radius: 22px;
+  background-color: #ffffff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.header-text__btn:hover {
+  color: #fff;
+  background: #43a9ff;
+}
+/*# sourceMappingURL=style.css.map */
